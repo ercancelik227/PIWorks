@@ -1,0 +1,4 @@
+//Please write an SQL query to determine how many different users logged in more than three times
+//Note: The output should return a single row including the number of users as requested.
+
+Select Count (userId) from [i_user_login_logs] WHERE login_date > 3;
