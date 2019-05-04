@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Variable
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 5;
+            int b = 10;
+            Console.WriteLine("First value of variable a: " + a);
+            Console.WriteLine("First value of variable b: " + b);
+            Console.WriteLine("----------");
+            a = a + b;
+            b = a - b;
+            a = a - b;
+            Console.WriteLine("New value of variable a: " + a);
+            Console.WriteLine("New value of variable b: " + b);
+
+
+            Console.ReadLine();
+        }
+    }
+}
